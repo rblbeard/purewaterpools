@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Pure Water Pools | Expert Pool Consulting & Litigation Testimony</title>
+	<meta name="description" content="Randy Beard's Pure Water Pools provides authoritative forensic pool consulting, construction-defect auditing, and expert witness testimony for aquatic litigation in Newport Beach and Orange County." />
+	
+	<!-- SEO & OpenGraph Meta Tags -->
+	<meta property="og:title" content="Pure Water Pools | Expert Pool Consulting & Litigation Testimony" />
+	<meta property="og:description" content="Authoritative forensic pool consulting, construction-defect auditing, and expert witness testimony by Randy Beard." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://purewaterpools.com" />
+	<meta property="og:image" content="assets/brand/pwp_logo_transparent.png" />
+	
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+	<style>
+		/* MID-CENTURY MODERN DESIGN SYSTEM */
+		:root {
+			--color-sand: #FAF7F2;
+			--color-walnut: #2B2523;
+			--color-cobalt: #1F1FE6;
+			--color-cobalt-hover: #1212B3;
+			--color-cobalt-light: #EAEBFF;
+			--color-ochre: #C68A4C;
+			--color-ochre-light: #F2E3CE;
+			--color-sage: #5E7E75;
+			--color-sage-light: #E3ECEB;
+			--color-border: #DCD4CA;
+			--color-card-bg: #FFFFFF;
+			
+			--font-display: 'DM Serif Display', serif;
+			--font-body: 'Outfit', sans-serif;
+			--transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+		}
+
+		/* CSS RESET */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html {
+			scroll-behavior: smooth;
+			background-color: var(--color-sand);
+			color: var(--color-walnut);
+			font-family: var(--font-body);
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+			overflow-x: hidden;
+		}
+
+		/* TYPOGRAPHY */
+		h1, h2, h3, h4 {
+			font-family: var(--font-display);
+			font-weight: 400;
+			line-height: 1.15;
+			letter-spacing: -0.01em;
+		}
+
+		p {
+			line-height: 1.6;
+			font-weight: 400;
+			font-size: 1.05rem;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+			transition: var(--transition-smooth);
+		}
+
+		/* UTILITIES */
+		.container {
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 24px;
+		}
+
+		.section-padding {
+			padding: 80px 0;
+		}
+
+		@media (min-width: 768px) {
+			.section-padding {
+				padding: 120px 0;
+			}
+		}
+
+		.btn {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			padding: 14px 28px;
+			border-radius: 4px;
+			font-weight: 600;
+			font-size: 1rem;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			transition: var(--transition-smooth);
+			cursor: pointer;
+		}
+
+		.btn-cobalt {
+			background-color: var(--color-cobalt);
+			color: var(--color-sand);
+			border: 2px solid var(--color-cobalt);
+		}
+
+		.btn-cobalt:hover {
+			background-color: var(--color-cobalt-hover);
+			border-color: var(--color-cobalt-hover);
+			transform: translateY(-2px);
+		}
+
+		.btn-outline {
+			background-color: transparent;
+			color: var(--color-walnut);
+			border: 2px solid var(--color-walnut);
+		}
+
+		.btn-outline:hover {
+			background-color: var(--color-walnut);
+			color: var(--color-sand);
+			transform: translateY(-2px);
+		}
+
+		.badge {
+			display: inline-block;
+			font-size: 0.8rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.15em;
+			color: var(--color-ochre);
+			margin-bottom: 12px;
+		}
+
+		/* HEADER & NAVIGATION */
+		header {
+			position: sticky;
+			top: 0;
+			z-index: 1000;
+			background-color: rgba(250, 247, 242, 0.95);
+			border-bottom: 1px solid var(--color-border);
+			backdrop-filter: blur(10px);
+			transition: var(--transition-smooth);
+		}
+
+		.nav-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 80px;
+		}
+
+		.logo-lockup {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+		}
+
+		.logo-img {
+			height: 52px;
+			width: auto;
+			object-fit: contain;
+		}
+
+		.logo-text {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.logo-title {
+			font-family: var(--font-display);
+			font-size: 1.4rem;
+			letter-spacing: 0.02em;
+			line-height: 1;
+			color: var(--color-cobalt);
+		}
+
+		.logo-subtitle {
+			font-size: 0.65rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.15em;
+			color: var(--color-walnut);
+			margin-top: 2px;
+		}
+
+		.nav-links {
+			display: none;
+			gap: 32px;
+		}
+
+		.nav-links a {
+			font-weight: 500;
+			font-size: 0.95rem;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			position: relative;
+			padding: 8px 0;
+		}
+
+		.nav-links a::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 0;
+			height: 2px;
+			background-color: var(--color-cobalt);
+			transition: var(--transition-smooth);
+		}
+
+		.nav-links a:hover::after {
+			width: 100%;
+		}
+
+		.nav-cta {
+			display: none;
+		}
+
+		/* Mobile menu button */
+		.mobile-toggle {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 24px;
+			height: 18px;
+			background: transparent;
+			border: none;
+			cursor: pointer;
+			z-index: 1100;
+		}
+
+		.mobile-toggle span {
+			display: block;
+			width: 100%;
+			height: 2px;
+			background-color: var(--color-walnut);
+			transition: var(--transition-smooth);
+		}
+
+		/* Mobile Navigation Overlay */
+		.mobile-nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100vh;
+			background-color: var(--color-sand);
+			z-index: 1050;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 32px;
+			opacity: 0;
+			visibility: hidden;
+			transition: var(--transition-smooth);
+		}
+
+		.mobile-nav.active {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.mobile-nav a {
+			font-family: var(--font-display);
+			font-size: 2rem;
+			color: var(--color-walnut);
+		}
+
+		.mobile-nav a:hover {
+			color: var(--color-cobalt);
+		}
+
+		.mobile-nav .btn {
+			font-family: var(--font-body);
+			font-size: 1rem;
+		}
+
+		@media (min-width: 1024px) {
+			.nav-links {
+				display: flex;
+			}
+			.nav-cta {
+				display: block;
+			}
+			.mobile-toggle {
+				display: none;
+			}
+		}
+
+		/* HERO SECTION */
+		.hero-section {
+			background-color: var(--color-sand);
+			position: relative;
+			overflow: hidden;
+			border-bottom: 1px solid var(--color-border);
+		}
+
+		.hero-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 48px;
+			align-items: center;
+		}
+
+		@media (min-width: 1024px) {
+			.hero-grid {
+				grid-template-columns: 1.2fr 0.8fr;
+				gap: 80px;
+			}
+		}
+
+		.hero-content {
+			position: relative;
+			z-index: 2;
+		}
+
+		.hero-title {
+			font-size: 2.8rem;
+			line-height: 1.1;
+			margin-bottom: 24px;
+			color: var(--color-walnut);
+		}
+
+		@media (min-width: 768px) {
+			.hero-title {
+				font-size: 4rem;
+			}
+		}
+
+		.hero-description {
+			font-size: 1.15rem;
+			margin-bottom: 40px;
+			color: var(--color-walnut);
+			max-width: 620px;
+		}
+
+		.hero-actions {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 16px;
+		}
+
+		/* Mid-Century Graphic Element */
+		.hero-graphic-wrap {
+			position: relative;
+			width: 100%;
+			aspect-ratio: 1;
+			max-width: 450px;
+			margin: 0 auto;
+		}
+
+		.hero-graphic {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			border: 1px solid var(--color-walnut);
+			padding: 24px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.hero-graphic::before {
+			content: '';
+			position: absolute;
+			top: -12px;
+			left: -12px;
+			width: 100%;
+			height: 100%;
+			border: 1px solid var(--color-ochre);
+			z-index: -1;
+			pointer-events: none;
+		}
+
+		.hero-graphic-circle {
+			position: absolute;
+			width: 80%;
+			height: 80%;
+			border-radius: 50%;
+			background-color: var(--color-sage-light);
+			z-index: 1;
+			opacity: 0.8;
+		}
+
+		.hero-graphic-inner {
+			position: relative;
+			z-index: 2;
+			text-align: center;
+			padding: 32px;
+			background-color: var(--color-sand);
+			border: 1px solid var(--color-walnut);
+		}
+
+		.hero-badge-title {
+			font-family: var(--font-display);
+			font-size: 2.2rem;
+			color: var(--color-cobalt);
+			margin-bottom: 8px;
+		}
+
+		.hero-badge-text {
+			font-size: 0.85rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: var(--color-walnut);
+		}
+
+		/* CREDENTIALS BAR */
+		.credentials-bar {
+			background-color: var(--color-walnut);
+			color: var(--color-sand);
+			border-bottom: 4px solid var(--color-ochre);
+		}
+
+		.credentials-grid {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 32px;
+			padding: 40px 0;
+			text-align: center;
+		}
+
+		@media (min-width: 768px) {
+			.credentials-grid {
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+
+		.credential-item {
+			position: relative;
+		}
+
+		@media (min-width: 768px) {
+			.credential-item:not(:last-child)::after {
+				content: '';
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				width: 1px;
+				height: 40px;
+				background-color: rgba(250, 247, 242, 0.2);
+			}
+		}
+
+		.cred-value {
+			font-family: var(--font-display);
+			font-size: 2.2rem;
+			color: var(--color-ochre);
+			margin-bottom: 4px;
+		}
+
+		.cred-label {
+			font-size: 0.8rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: rgba(250, 247, 242, 0.8);
+		}
+
+		/* CONSULTING & LITIGATION TESTIMONY */
+		.consulting-section {
+			background-color: var(--color-sand);
+			border-bottom: 1px solid var(--color-border);
+		}
+
+		.consulting-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 64px;
+		}
+
+		@media (min-width: 1024px) {
+			.consulting-grid {
+				grid-template-columns: 1fr 1fr;
+				gap: 80px;
+			}
+		}
+
+		.consulting-lead h2 {
+			font-size: 2.5rem;
+			margin-bottom: 24px;
+		}
+
+		.consulting-lead p {
+			margin-bottom: 24px;
+			color: rgba(43, 37, 35, 0.85);
+		}
+
+		.consulting-card-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
+
+		.consulting-card {
+			background-color: var(--color-card-bg);
+			border: 1px solid var(--color-border);
+			padding: 32px;
+			border-radius: 4px;
+			transition: var(--transition-smooth);
+		}
+
+		.consulting-card:hover {
+			border-color: var(--color-cobalt);
+			transform: translateY(-4px);
+			box-shadow: 0 12px 30px rgba(31, 31, 230, 0.05);
+		}
+
+		.consulting-card-icon {
+			font-size: 2rem;
+			margin-bottom: 16px;
+			color: var(--color-cobalt);
+			display: inline-block;
+		}
+
+		.consulting-card h3 {
+			font-size: 1.4rem;
+			margin-bottom: 12px;
+			color: var(--color-walnut);
+		}
+
+		.consulting-card p {
+			font-size: 0.95rem;
+			color: rgba(43, 37, 35, 0.8);
+		}
+
+		/* QUOTE BLOCK */
+		.quote-block {
+			margin-top: 48px;
+			padding: 32px;
+			border-left: 3px solid var(--color-ochre);
+			background-color: var(--color-ochre-light);
+			border-radius: 0 4px 4px 0;
+		}
+
+		.quote-text {
+			font-family: var(--font-display);
+			font-size: 1.35rem;
+			font-style: italic;
+			line-height: 1.4;
+			margin-bottom: 16px;
+			color: var(--color-walnut);
+		}
+
+		.quote-author {
+			font-size: 0.9rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+		}
+
+		/* POOL AGENT APP SECTION */
+		.app-section {
+			background-color: var(--color-walnut);
+			color: var(--color-sand);
+			position: relative;
+			overflow: hidden;
+		}
+
+		.app-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 64px;
+			align-items: center;
+		}
+
+		@media (min-width: 1024px) {
+			.app-grid {
+				grid-template-columns: 1fr 1fr;
+				gap: 80px;
+			}
+		}
+
+		.app-content h2 {
+			font-size: 2.8rem;
+			margin-bottom: 24px;
+			color: var(--color-sand);
+		}
+
+		.app-description {
+			font-size: 1.1rem;
+			margin-bottom: 32px;
+			color: rgba(250, 247, 242, 0.8);
+		}
+
+		.app-features {
+			list-style: none;
+			margin-bottom: 40px;
+		}
+
+		.app-features li {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			margin-bottom: 16px;
+			font-weight: 500;
+		}
+
+		.app-features li svg {
+			flex-shrink: 0;
+			color: var(--color-ochre);
+		}
+
+		/* Styled mockup container */
+		.app-mockup {
+			position: relative;
+			width: 100%;
+			max-width: 480px;
+			margin: 0 auto;
+			border: 1px solid rgba(250, 247, 242, 0.15);
+			padding: 16px;
+			border-radius: 12px;
+			background-color: rgba(250, 247, 242, 0.03);
+			box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+		}
+
+		.mockup-inner {
+			background-color: #161211;
+			border: 1px solid rgba(250, 247, 242, 0.1);
+			border-radius: 8px;
+			overflow: hidden;
+			aspect-ratio: 0.85;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.mockup-header {
+			background-color: rgba(0, 0, 0, 0.2);
+			padding: 16px;
+			border-bottom: 1px solid rgba(250, 247, 242, 0.08);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.mockup-logo {
+			font-family: var(--font-display);
+			font-size: 1.15rem;
+			color: var(--color-sand);
+		}
+
+		.mockup-logo span {
+			color: var(--color-ochre);
+		}
+
+		.mockup-badge {
+			background-color: var(--color-cobalt);
+			color: var(--color-sand);
+			font-size: 0.65rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			padding: 4px 8px;
+			border-radius: 4px;
+		}
+
+		.mockup-screen {
+			flex-grow: 1;
+			padding: 24px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 16px;
+		}
+
+		.mockup-chat-bubble {
+			background-color: rgba(250, 247, 242, 0.05);
+			border: 1px solid rgba(250, 247, 242, 0.1);
+			border-radius: 6px;
+			padding: 16px;
+			font-size: 0.85rem;
+			line-height: 1.4;
+		}
+
+		.mockup-chat-bubble.bot {
+			border-left: 2px solid var(--color-ochre);
+			color: rgba(250, 247, 242, 0.9);
+		}
+
+		.mockup-chat-bubble.user {
+			background-color: var(--color-cobalt);
+			color: var(--color-sand);
+			align-self: flex-end;
+			max-width: 80%;
+		}
+
+		.mockup-input-area {
+			background-color: rgba(0, 0, 0, 0.3);
+			padding: 12px 16px;
+			border: 1px solid rgba(250, 247, 242, 0.1);
+			border-radius: 6px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: rgba(250, 247, 242, 0.5);
+			font-size: 0.85rem;
+		}
+
+		/* SECONDARY SERVICES SECTION */
+		.services-section {
+			background-color: var(--color-sand);
+			border-bottom: 1px solid var(--color-border);
+		}
+
+		.section-header {
+			text-align: center;
+			max-width: 700px;
+			margin: 0 auto 72px;
+		}
+
+		.section-header h2 {
+			font-size: 2.5rem;
+			margin-bottom: 16px;
+		}
+
+		.services-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 32px;
+		}
+
+		@media (min-width: 768px) {
+			.services-grid {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		.service-card {
+			background-color: var(--color-card-bg);
+			border: 1px solid var(--color-border);
+			padding: 40px 32px;
+			border-radius: 4px;
+			transition: var(--transition-smooth);
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.service-card::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 4px;
+			background-color: var(--color-border);
+			transition: var(--transition-smooth);
+		}
+
+		.service-card:hover::before {
+			background-color: var(--color-ochre);
+		}
+
+		.service-card:hover {
+			transform: translateY(-6px);
+			box-shadow: 0 16px 36px rgba(43, 37, 35, 0.05);
+		}
+
+		.service-info h3 {
+			font-size: 1.5rem;
+			margin-bottom: 16px;
+			color: var(--color-walnut);
+		}
+
+		.service-info p {
+			font-size: 0.95rem;
+			color: rgba(43, 37, 35, 0.8);
+			margin-bottom: 24px;
+		}
+
+		/* PROJECT GALLERY SECTION */
+		.gallery-section {
+			background-color: var(--color-sand);
+			border-bottom: 1px solid var(--color-border);
+		}
+
+		.gallery-grid {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 16px;
+		}
+
+		@media (min-width: 768px) {
+			.gallery-grid {
+				grid-template-columns: repeat(3, 1fr);
+				gap: 20px;
+			}
+		}
+
+		@media (min-width: 1024px) {
+			.gallery-grid {
+				grid-template-columns: repeat(4, 1fr);
+				gap: 24px;
+			}
+		}
+
+		.gallery-item {
+			position: relative;
+			aspect-ratio: 1.4;
+			overflow: hidden;
+			background-color: var(--color-walnut);
+			border: 1px solid var(--color-border);
+			cursor: pointer;
+			border-radius: 4px;
+		}
+
+		.gallery-item img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			filter: grayscale(15%);
+			transition: var(--transition-smooth);
+		}
+
+		.gallery-item:hover img {
+			transform: scale(1.08);
+			filter: grayscale(0%);
+		}
+
+		.gallery-item-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(0deg, rgba(43, 37, 35, 0.8) 0%, rgba(43, 37, 35, 0.2) 60%, rgba(43, 37, 35, 0) 100%);
+			display: flex;
+			align-items: flex-end;
+			padding: 20px;
+			opacity: 0;
+			transition: var(--transition-smooth);
+		}
+
+		.gallery-item:hover .gallery-item-overlay {
+			opacity: 1;
+		}
+
+		.gallery-item-title {
+			color: var(--color-sand);
+			font-family: var(--font-display);
+			font-size: 1.15rem;
+		}
+
+		.gallery-item-tag {
+			font-size: 0.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: var(--color-ochre);
+			margin-bottom: 4px;
+		}
+
+		/* LIGHTBOX MODAL */
+		.lightbox {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(43, 37, 35, 0.98);
+			z-index: 2000;
+			display: none;
+			align-items: center;
+			justify-content: center;
+			padding: 40px;
+		}
+
+		.lightbox.active {
+			display: flex;
+		}
+
+		.lightbox-content {
+			max-width: 90%;
+			max-height: 80vh;
+			position: relative;
+			border: 1px solid rgba(250, 247, 242, 0.1);
+			padding: 8px;
+			background-color: var(--color-walnut);
+			border-radius: 4px;
+		}
+
+		.lightbox-img {
+			display: block;
+			max-width: 100%;
+			max-height: 75vh;
+			width: auto;
+			height: auto;
+			object-fit: contain;
+		}
+
+		.lightbox-close {
+			position: absolute;
+			top: -48px;
+			right: 0;
+			background: transparent;
+			border: none;
+			color: var(--color-sand);
+			font-size: 2rem;
+			cursor: pointer;
+			line-height: 1;
+		}
+
+		.lightbox-close:hover {
+			color: var(--color-ochre);
+		}
+
+		.lightbox-caption {
+			color: var(--color-sand);
+			font-family: var(--font-display);
+			font-size: 1.25rem;
+			text-align: center;
+			margin-top: 16px;
+		}
+
+		.lightbox-nav {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			background: transparent;
+			border: none;
+			color: var(--color-sand);
+			font-size: 2.5rem;
+			cursor: pointer;
+			padding: 10px;
+			transition: var(--transition-smooth);
+		}
+
+		.lightbox-nav:hover {
+			color: var(--color-ochre);
+		}
+
+		.lightbox-prev {
+			left: -60px;
+		}
+
+		.lightbox-next {
+			right: -60px;
+		}
+
+		@media (max-width: 767px) {
+			.lightbox {
+				padding: 20px;
+			}
+			.lightbox-nav {
+				top: auto;
+				bottom: -60px;
+				transform: none;
+			}
+			.lightbox-prev {
+				left: 20%;
+			}
+			.lightbox-next {
+				right: 20%;
+			}
+		}
+
+		/* CONTACT FORM */
+		.contact-section {
+			background-color: var(--color-sand);
+			border-bottom: 1px solid var(--color-border);
+		}
+
+		.contact-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 64px;
+		}
+
+		@media (min-width: 1024px) {
+			.contact-grid {
+				grid-template-columns: 0.8fr 1.2fr;
+				gap: 80px;
+			}
+		}
+
+		.contact-info h2 {
+			font-size: 2.5rem;
+			margin-bottom: 24px;
+		}
+
+		.contact-details {
+			margin: 40px 0;
+		}
+
+		.contact-method {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+			margin-bottom: 24px;
+		}
+
+		.contact-method-icon {
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			background-color: var(--color-cobalt-light);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: var(--color-cobalt);
+			font-size: 1.2rem;
+		}
+
+		.contact-method-text span {
+			display: block;
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			color: var(--color-ochre);
+		}
+
+		.contact-method-text a {
+			font-size: 1.15rem;
+			font-weight: 600;
+			color: var(--color-walnut);
+		}
+
+		.contact-method-text a:hover {
+			color: var(--color-cobalt);
+		}
+
+		/* Stylized Form */
+		.contact-form-wrap {
+			background-color: var(--color-card-bg);
+			border: 1px solid var(--color-border);
+			padding: 40px;
+			border-radius: 4px;
+		}
+
+		.form-row {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 24px;
+			margin-bottom: 24px;
+		}
+
+		@media (min-width: 768px) {
+			.form-row-2 {
+				grid-template-columns: 1fr 1fr;
+			}
+		}
+
+		.form-group {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.form-group label {
+			font-size: 0.8rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			margin-bottom: 8px;
+			color: var(--color-walnut);
+		}
+
+		.form-group input,
+		.form-group select,
+		.form-group textarea {
+			padding: 12px 16px;
+			border: 1px solid var(--color-border);
+			background-color: var(--color-sand);
+			color: var(--color-walnut);
+			font-family: var(--font-body);
+			font-size: 1rem;
+			border-radius: 4px;
+			transition: var(--transition-smooth);
+		}
+
+		.form-group input:focus,
+		.form-group select:focus,
+		.form-group textarea:focus {
+			outline: none;
+			border-color: var(--color-cobalt);
+			background-color: #FFFFFF;
+		}
+
+		.form-group textarea {
+			resize: vertical;
+			min-height: 120px;
+		}
+
+		/* FOOTER */
+		footer {
+			background-color: var(--color-walnut);
+			color: var(--color-sand);
+			padding: 80px 0 40px;
+			border-top: 4px solid var(--color-cobalt);
+		}
+
+		.footer-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 48px;
+			margin-bottom: 60px;
+		}
+
+		@media (min-width: 768px) {
+			.footer-grid {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		.footer-brand {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+
+		.footer-brand .logo-title {
+			color: var(--color-sand);
+		}
+
+		.footer-brand .logo-subtitle {
+			color: var(--color-ochre);
+		}
+
+		.footer-brand-logo {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+		}
+
+		.footer-logo-img {
+			height: 52px;
+			width: auto;
+			filter: brightness(0) invert(1);
+		}
+
+		.footer-tagline {
+			font-family: var(--font-display);
+			font-size: 1.35rem;
+			color: var(--color-ochre);
+			margin-top: 8px;
+		}
+
+		.footer-nav {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+
+		.footer-nav h4 {
+			font-size: 0.8rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: rgba(250, 247, 242, 0.4);
+		}
+
+		.footer-nav ul {
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+
+		.footer-nav ul a {
+			color: rgba(250, 247, 242, 0.8);
+			font-weight: 500;
+		}
+
+		.footer-nav ul a:hover {
+			color: var(--color-ochre);
+		}
+
+		.footer-meta {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+
+		.footer-meta h4 {
+			font-size: 0.8rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: rgba(250, 247, 242, 0.4);
+		}
+
+		.footer-meta p {
+			font-size: 0.95rem;
+			color: rgba(250, 247, 242, 0.8);
+		}
+
+		.footer-bottom {
+			border-top: 1px solid rgba(250, 247, 242, 0.1);
+			padding-top: 32px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			gap: 16px;
+			font-size: 0.85rem;
+			color: rgba(250, 247, 242, 0.5);
+		}
+
+		@media (min-width: 768px) {
+			.footer-bottom {
+				flex-direction: row;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<!-- NAV -->
+	<header>
+		<div class="container nav-container">
+			<a href="#" class="logo-lockup">
+				<img src="assets/brand/pwp_logo_transparent.png" alt="Pure Water Pools Logo" class="logo-img" />
+				<div class="logo-text">
+					<span class="logo-title">PURE WATER POOLS</span>
+					<span class="logo-subtitle">Newport Beach, CA</span>
+				</div>
+			</a>
+
+			<nav class="nav-links">
+				<a href="#consulting">Consulting</a>
+				<a href="#poolagent">Pool Agent App</a>
+				<a href="#services">Services</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#contact">Contact</a>
+			</nav>
+
+			<div class="nav-cta">
+				<a href="tel:9492643466" class="btn btn-outline">Call (949) 264-3466</a>
+			</div>
+
+			<button class="mobile-toggle" aria-label="Toggle Navigation menu" aria-expanded="false" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</header>
+
+	<!-- MOBILE NAVIGATION OVERLAY -->
+	<nav class="mobile-nav" id="mobileNav">
+		<a href="#consulting" onclick="toggleMenu()">Consulting</a>
+		<a href="#poolagent" onclick="toggleMenu()">Pool Agent App</a>
+		<a href="#services" onclick="toggleMenu()">Services</a>
+		<a href="#gallery" onclick="toggleMenu()">Gallery</a>
+		<a href="#contact" onclick="toggleMenu()">Contact</a>
+		<a href="tel:9492643466" class="btn btn-cobalt">Call (949) 264-3466</a>
+	</nav>
+
+	<main>
+		<!-- HERO SECTION -->
+		<section class="hero-section section-padding">
+			<div class="container hero-grid">
+				<div class="hero-content">
+					<span class="badge">Forensic Pool Expert witness</span>
+					<h1 class="hero-title">Forensic Pool Consulting & Litigation Testimony</h1>
+					<p class="hero-description">
+						For over three decades, Principal Expert Randy Beard has provided authoritative, technical consulting and retained expert-witness opinions for aquatic construction-defect claims, pool safety compliance audits, and injury litigation throughout Orange County.
+					</p>
+					<div class="hero-actions">
+						<a href="#contact" class="btn btn-cobalt">Initiate Consultation</a>
+						<a href="tel:9492643466" class="btn btn-outline">Call (949) 264-3466</a>
+					</div>
+				</div>
+				<div class="hero-graphic-wrap">
+					<div class="hero-graphic">
+						<div class="hero-graphic-circle"></div>
+						<div class="hero-graphic-inner">
+							<span class="hero-badge-title">PWP</span>
+							<div class="hero-badge-text">Orange County<br />Retained Authority</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CREDENTIALS BAR -->
+		<section class="credentials-bar">
+			<div class="container credentials-grid">
+				<div class="credential-item">
+					<div class="cred-value">30+</div>
+					<div class="cred-label">Years Experience</div>
+				</div>
+				<div class="credential-item">
+					<div class="cred-value">Forensic</div>
+					<div class="cred-label">Defect Audits</div>
+				</div>
+				<div class="credential-item">
+					<div class="cred-value">Both</div>
+					<div class="cred-label">Plaintiff & Defense</div>
+				</div>
+				<div class="credential-item">
+					<div class="cred-value">Newport</div>
+					<div class="cred-label">Beach & Orange County</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- EXPERT CONSULTING & LITIGATION SERVICES -->
+		<section id="consulting" class="consulting-section section-padding">
+			<div class="container consulting-grid">
+				<div class="consulting-lead">
+					<span class="badge">Professional Authority</span>
+					<h2>Pool Consulting & Expert Witness Services</h2>
+					<p>
+						Aquatic systems involve complex dynamics of structural engineering, mechanical filtration, hydraulics, and volatile chemistry. Construction failures or maintenance oversights can rapidly scale into million-dollar liabilities.
+					</p>
+					<p>
+						Randy Beard provides peerless forensic investigations, code interpretations, and clear, credible testimony for law firms, developers, insurers, and property owners.
+					</p>
+					
+					<div class="quote-block">
+						<p class="quote-text">
+							"In mediation or cross-examination, success depends on data-driven clarity. We isolate the structural failure or safety non-compliance with absolute forensic accuracy."
+						</p>
+						<p class="quote-author">— Randy Beard, Principal Expert</p>
+					</div>
+				</div>
+
+				<div class="consulting-card-grid">
+					<!-- Card 1 -->
+					<div class="consulting-card">
+						<span class="consulting-card-icon">🏛️</span>
+						<h3>Expert Witness Testimony</h3>
+						<p>Deposition and trial testimony that translates technical engineering, pool design, and plumbing failures into plain, persuasive arguments for both plaintiff and defense counsel.</p>
+					</div>
+					
+					<!-- Card 2 -->
+					<div class="consulting-card">
+						<span class="consulting-card-icon">🔍</span>
+						<h3>Construction-Defect Auditing</h3>
+						<p>Comprehensive site inspections of structural concrete, plumbing lines, waterproofing membranes, electrical grounding/bonding, and finish failures (plaster/pebble delamination).</p>
+					</div>
+
+					<!-- Card 3 -->
+					<div class="consulting-card">
+						<span class="consulting-card-icon">🛡️</span>
+						<h3>Code & Safety Compliance</h3>
+						<p>Thorough investigations into barrier compliance, gate mechanisms, suction outlet fitting assemblies (VGB Act), depth markings, and general safety protocols to identify operational negligence.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- POOL AGENT APP SECTION -->
+		<section id="poolagent" class="app-section section-padding">
+			<div class="container app-grid">
+				<div class="app-mockup">
+					<div class="mockup-inner">
+						<div class="mockup-header">
+							<span class="mockup-logo">POOL <span>AGENT</span></span>
+							<span class="mockup-badge">AI Assistant</span>
+						</div>
+						<div class="mockup-screen">
+							<div class="mockup-chat-bubble bot">
+								<strong>Pool Agent bot:</strong><br />
+								Based on the chemical analysis of your pool (15,000 gal): pH is at 8.0, total alkalinity is 140 ppm. Add 1.5 pints of muriatic acid to lower pH to 7.4.
+							</div>
+							<div class="mockup-chat-bubble user" style="background-color: var(--color-cobalt); color: var(--color-sand); align-self: flex-end; max-width: 80%;">
+								<strong>Technician:</strong><br />
+								Got it. Calculating dosage. What is the saturation index?
+							</div>
+							<div class="mockup-input-area">
+								Ask Pool Agent a question...
+								<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+									<path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="app-content">
+					<span class="badge" style="color: var(--color-ochre);">Next-Gen Pool Intelligence</span>
+					<h2>Feature Spotlight:<br />The Pool Agent App</h2>
+					<p class="app-description">
+						Streamline field work and client diagnostics with Pool Agent (poolagent.app). Developed for pool professionals, this AI-powered application handles precise chemical calculations, equipment diagnostics, and structural estimating on-site.
+					</p>
+					<ul class="app-features">
+						<li>
+							<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="20 6 9 17 4 12"></polyline>
+							</svg>
+							Real-time chemical dosing algorithms & LSI calculations
+						</li>
+						<li>
+							<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="20 6 9 17 4 12"></polyline>
+							</svg>
+							Forensic equipment troubleshooting & error code analysis
+						</li>
+						<li>
+							<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="20 6 9 17 4 12"></polyline>
+							</svg>
+							Direct access to CA Building Code and safety standard rules
+						</li>
+					</ul>
+					<a href="https://poolagent.app" target="_blank" rel="noopener" class="btn btn-cobalt">Try Pool Agent App</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- SECONDARY SERVICES (TILE, CONSTRUCTION MANAGEMENT, PLASTER) -->
+		<section id="services" class="services-section section-padding">
+			<div class="container">
+				<div class="section-header">
+					<span class="badge">Practical Crafts</span>
+					<h2>Pool Restoration & Preservation Services</h2>
+					<p>Below our primary consulting work, we provide Orange County homeowners and property managers with hands-on, specialist restoration and management services to keep swimming pools structurally sound and visually immaculate.</p>
+				</div>
+				
+				<div class="services-grid">
+					<!-- Service 1 -->
+					<div class="service-card">
+						<div class="service-info">
+							<h3>Waterline Tile Cleaning & Bead Blasting</h3>
+							<p>Over time, pool water evaporates, leaving behind stubborn white calcium scale along the waterline. We utilize advanced, low-pressure glass bead blasting technology to safely blast away calcium deposits and restore the original luster of tile and stone without scratching or etching the underlying surface.</p>
+						</div>
+						<a href="#contact" class="btn btn-outline" style="align-self: flex-start; margin-top: 16px;">Inquire</a>
+					</div>
+
+					<!-- Service 2 -->
+					<div class="service-card">
+						<div class="service-info">
+							<h3>Construction Management</h3>
+							<p>Acting as the owner's representative for new builds and extensive pool renovations. We oversee progress, coordinate trades, and verify that all structural engineering, plumbing hydraulics, electrical grounding, and finish applications conform to building codes and plans.</p>
+						</div>
+						<a href="#contact" class="btn btn-outline" style="align-self: flex-start; margin-top: 16px;">Inquire</a>
+					</div>
+
+					<!-- Service 3 -->
+					<div class="service-card">
+						<div class="service-info">
+							<h3>Professional Plastering</h3>
+							<p>If your pool finish is rough, stained, or peeling, a professional replaster is required. We specialize in surface preparation, bond coat applications, and applying classic pool plaster, pebble finishes, or quartz aggregates for a watertight, beautiful surface.</p>
+						</div>
+						<a href="#contact" class="btn btn-outline" style="align-self: flex-start; margin-top: 16px;">Inquire</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROJECT GALLERY -->
+		<section id="gallery" class="gallery-section section-padding">
+			<div class="container">
+				<div class="section-header">
+					<span class="badge">Portfolio</span>
+					<h2>Featured Projects & Preservation</h2>
+					<p>A curated selection of our premium custom pool designs, night-scape illuminations, and real on-site restoration projects in Newport Beach and Bel Air.</p>
+				</div>
+
+				<div class="gallery-grid">
+					<div class="gallery-item" onclick="openLightbox(0)">
+						<img src="assets/images/bel_air_pool_1.jpg" alt="Luxury Infinity Estate Pool" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Design Portfolio</div>
+								<h3 class="gallery-item-title">Infinity Estate Pool</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(1)">
+						<img src="assets/images/pure_water_2014/tile_detail.jpg" alt="Waterline Tile Detail Clean" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Restoration</div>
+								<h3 class="gallery-item-title">Waterline Tile Detail</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(2)">
+						<img src="assets/images/night_time_pool.jpg" alt="Custom Illuminated Night Spa and Pool" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Design Portfolio</div>
+								<h3 class="gallery-item-title">Illuminated Night Spa</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(3)">
+						<img src="assets/images/pure_water_2014/IMAG0212.jpg" alt="Pool Plaster and Tile Finish" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Surface Finish</div>
+								<h3 class="gallery-item-title">Fresh Plaster & Tile</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(4)">
+						<img src="assets/images/bel_air_pool_2.jpg" alt="Modern Architectural Pool with Custom Coping" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Design Portfolio</div>
+								<h3 class="gallery-item-title">Modern Architectural Pool</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(5)">
+						<img src="assets/images/pure_water_2014/IMAG0248.jpg" alt="Filtration Equipment Details" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Mechanical</div>
+								<h3 class="gallery-item-title">Equipment Configuration</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(6)">
+						<img src="assets/images/night_time_pool_2.jpg" alt="Luxury Estate Spa and Landscape Lighting" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Design Portfolio</div>
+								<h3 class="gallery-item-title">Estate Night Scape</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item" onclick="openLightbox(7)">
+						<img src="assets/images/pure_water_2014/photo 5.JPG" alt="Completed Custom Spa and Pool" />
+						<div class="gallery-item-overlay">
+							<div class="gallery-item-details">
+								<div class="gallery-item-tag">Construction</div>
+								<h3 class="gallery-item-title">Custom Newport Pool</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- LIGHTBOX CONTAINER -->
+		<div id="galleryLightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Project Image Viewer">
+			<button class="lightbox-close" onclick="closeLightbox()" aria-label="Close viewer">&times;</button>
+			<button class="lightbox-nav lightbox-prev" onclick="prevImage()" aria-label="Previous image">&#10094;</button>
+			<div class="lightbox-content">
+				<img id="lightboxImg" class="lightbox-img" src="" alt="Project view large" />
+				<div id="lightboxCaption" class="lightbox-caption">Caption Text</div>
+			</div>
+			<button class="lightbox-nav lightbox-next" onclick="nextImage()" aria-label="Next image">&#10095;</button>
+		</div>
+
+		<!-- CONTACT & CONSULTATION FORM -->
+		<section id="contact" class="contact-section section-padding">
+			<div class="container contact-grid">
+				<div class="contact-info">
+					<span class="badge">Inquiries</span>
+					<h2>Initiate a Consulting Audit or Project Inquiry</h2>
+					<p>Please submit details regarding your litigation file, property defect dispute, or tile cleaning restoration project. Our office reviews all incoming consultations within one business day.</p>
+					
+					<div class="contact-details">
+						<div class="contact-method">
+							<div class="contact-method-icon">📞</div>
+							<div class="contact-method-text">
+								<span>Public Inquiry Hotline</span>
+								<a href="tel:9492643466">(949) 264-3466</a>
+							</div>
+						</div>
+
+						<div class="contact-method">
+							<div class="contact-method-icon">✉️</div>
+							<div class="contact-method-text">
+								<span>Direct Professional Email</span>
+								<a href="mailto:rb@purewaterpools.com">rb@purewaterpools.com</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="contact-form-wrap">
+					<!-- TODO: Replace action URL with verified Formspree form ID when available -->
+					<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+						<div class="form-row form-row-2">
+							<div class="form-group">
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" name="first_name" required placeholder="John" />
+							</div>
+							<div class="form-group">
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" name="last_name" required placeholder="Duley" />
+							</div>
+						</div>
+						
+						<div class="form-row form-row-2">
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email" required placeholder="john.duley@example.com" />
+							</div>
+							<div class="form-group">
+								<label for="phone">Phone Number</label>
+								<input type="tel" id="phone" name="phone" placeholder="(949) 000-0000" />
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group">
+								<label for="service">Service Requested</label>
+								<select id="service" name="service" required>
+									<option value="" disabled selected>-- Select Inquiry Type --</option>
+									<option value="expert_witness">Expert Witness Testimony</option>
+									<option value="consulting">Construction Defect Consulting</option>
+									<option value="construction_management">Construction Management</option>
+									<option value="pool_agent">Pool Agent App Inquiry</option>
+									<option value="tile_restoration">Waterline Tile Cleaning & Bead Blasting</option>
+									<option value="replastering">Professional Pool Plastering</option>
+									<option value="other">Other / Custom Request</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group">
+								<label for="message">Project Description & Case Details</label>
+								<textarea id="message" name="message" required placeholder="Brief description of structural issue, litigation scope, or pool conditions..."></textarea>
+							</div>
+						</div>
+
+						<button type="submit" class="btn btn-cobalt" style="width: 100%;">Submit Consultation Request</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container footer-grid">
+			<div class="footer-brand">
+				<div class="footer-brand-logo">
+					<img src="assets/brand/pwp_logo_transparent.png" alt="Pure Water Pools Logo" class="footer-logo-img" />
+					<div class="logo-text">
+						<span class="logo-title">PURE WATER POOLS</span>
+						<span class="logo-subtitle">Newport Beach, CA</span>
+					</div>
+				</div>
+				<p class="footer-tagline">"Reach for the stars."</p>
+			</div>
+
+			<div class="footer-nav">
+				<h4>Directory</h4>
+				<ul>
+					<li><a href="#consulting">Consulting Services</a></li>
+					<li><a href="#poolagent">Pool Agent App</a></li>
+					<li><a href="#services">Preservation Services</a></li>
+					<li><a href="#gallery">Project Gallery</a></li>
+					<li><a href="#contact">Contact Audit</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-nav">
+				<h4>Legal & Authority</h4>
+				<ul>
+					<li><p style="color: rgba(250, 247, 242, 0.8);">Retained Expert Witness</p></li>
+					<li><p style="color: rgba(250, 247, 242, 0.8);">Newport Beach, CA</p></li>
+					<li><a href="tel:9492643466">(949) 264-3466</a></li>
+					<li><a href="mailto:rb@purewaterpools.com">rb@purewaterpools.com</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container footer-bottom">
+			<p>&copy; 2026 Pure Water Pools, Inc. All rights reserved.</p>
+			<p>Website Rebuilt with Antigravity AI.</p>
+		</div>
+	</footer>
+
+	<!-- JAVASCRIPT - MOBILE MENU & GALLERY LIGHTBOX -->
+	<script>
+		// Mobile Menu Navigation Toggle
+		function toggleMenu() {
+			const mobileNav = document.getElementById('mobileNav');
+			const toggleBtn = document.querySelector('.mobile-toggle');
+			const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+			
+			mobileNav.classList.toggle('active');
+			toggleBtn.setAttribute('aria-expanded', !isExpanded);
+			
+			// Change icon to X
+			const spans = toggleBtn.querySelectorAll('span');
+			if (mobileNav.classList.contains('active')) {
+				spans[0].style.transform = 'rotate(45deg) translate(5px, 6px)';
+				spans[1].style.opacity = '0';
+				spans[2].style.transform = 'rotate(-45deg) translate(5px, -6px)';
+			} else {
+				spans[0].style.transform = 'none';
+				spans[1].style.opacity = '1';
+				spans[2].style.transform = 'none';
+			}
+		}
+
+		// Lightbox Setup
+		const images = [
+			{ src: "assets/images/bel_air_pool_1.jpg", caption: "Luxury Infinity Estate Pool — Bel Air, CA" },
+			{ src: "assets/images/pure_water_2014/tile_detail.jpg", caption: "Waterline tile cleaning and calcium scale removal detail" },
+			{ src: "assets/images/night_time_pool.jpg", caption: "Modern night-scape pool design with custom LED lighting — Newport Coast" },
+			{ src: "assets/images/pure_water_2014/IMAG0212.jpg", caption: "Fresh plaster and waterline tile application" },
+			{ src: "assets/images/bel_air_pool_2.jpg", caption: "Asymmetrical modern architectural pool with perimeter overflow — Bel Air, CA" },
+			{ src: "assets/images/pure_water_2014/IMAG0248.jpg", caption: "Filtration equipment setup and plumbing configurations" },
+			{ src: "assets/images/night_time_pool_2.jpg", caption: "Luxury estate spa and landscape night-scape illumination" },
+			{ src: "assets/images/pure_water_2014/photo 5.JPG", caption: "Completed custom pool construction and stone coping — Newport Beach" }
+		];
+		
+		let currentImageIndex = 0;
+
+		function openLightbox(index) {
+			currentImageIndex = index;
+			updateLightboxImage();
+			const lightbox = document.getElementById('galleryLightbox');
+			lightbox.classList.add('active');
+			lightbox.setAttribute('aria-hidden', 'false');
+			document.body.style.overflow = 'hidden';
+			
+			// Focus close button for accessibility
+			document.querySelector('.lightbox-close').focus();
+		}
+
+		function closeLightbox() {
+			const lightbox = document.getElementById('galleryLightbox');
+			lightbox.classList.remove('active');
+			lightbox.setAttribute('aria-hidden', 'true');
+			document.body.style.overflow = '';
+		}
+
+		function prevImage() {
+			currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+			updateLightboxImage();
+		}
+
+		function nextImage() {
+			currentImageIndex = (currentImageIndex + 1) % images.length;
+			updateLightboxImage();
+		}
+
+		function updateLightboxImage() {
+			const imgElement = document.getElementById('lightboxImg');
+			const captionElement = document.getElementById('lightboxCaption');
+			
+			imgElement.src = images[currentImageIndex].src;
+			imgElement.alt = images[currentImageIndex].caption;
+			captionElement.textContent = images[currentImageIndex].caption;
+		}
+
+		// Keyboard controls for Lightbox accessibility
+		document.addEventListener('keydown', function(event) {
+			const lightbox = document.getElementById('galleryLightbox');
+			if (!lightbox.classList.contains('active')) return;
+			
+			if (event.key === 'Escape') {
+				closeLightbox();
+			} else if (event.key === 'ArrowLeft') {
+				prevImage();
+			} else if (event.key === 'ArrowRight') {
+				nextImage();
+			}
+		});
+	</script>
+
+</body>
+</html>

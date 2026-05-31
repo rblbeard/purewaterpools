@@ -1,0 +1,7 @@
+# Internal working files — never publish
+ANTIGRAVITY_PROMPT.md
+reference/
+# Heavy logo source files (not needed for the live site)
+assets/brand/originals_from_downloads/
+assets/brand/preview_*.png
+assets/brand/*.tif
